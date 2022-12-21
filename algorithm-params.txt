@@ -1,0 +1,12 @@
+iteration-limit = 10000
+time-limit = 1e100
+population-size = 100
+mutation:learning-period = 46
+crossover:learning-period = 37
+crossover:update-frequency = 13
+selection:strategy = dynamic
+selection:exploitation:frequency = 255
+selection:exploitation:iterations = 45
+selection:stochastic-rank:threshold = 0.18
+selection:fitness:g = 543
+selection:fitness:h = 50
